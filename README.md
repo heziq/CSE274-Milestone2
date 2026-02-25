@@ -66,4 +66,13 @@ The video below shows the same cloud with the background disabled. This view mak
 
 ## 4. Next Steps (Experiments)
 
-Planned next steps include comparing rendering with and without self-transfer (normal-based SH versus full PRT), trying different SH orders (9, 25, 49) and documenting quality versus cost, testing different voxel resolutions (e.g. 32³ vs 64³) if support is added, testing multiple HDR environments (directional versus diffuse) and documenting failure cases such as high-frequency detail lost at low SH order, and measuring frame rate and precomputation time to summarize tradeoffs.
+**Next steps**
+
+1. **Compare SH orders.** Compare SH orders 9, 25, and 49 for visual quality versus performance cost, especially for directional features like a sharp sun versus diffuse sky.
+2. **Test multiple HDR environments.** Test several HDR environments (clear sky, overcast, indoor studio, sunrise, and sunset) and record how well the PRT + SH pipeline handles both directional and diffuse lighting.
+3. **Measure performance and precompute cost.** Measure frame rate and precomputation time for key configurations (different SH orders, noise on or off, directional light on or off) and summarize the tradeoffs.
+
+**If time allows**
+
+4. **More realistic cloud scenarios.** Replace or complement the current strong-color studio lighting with more realistic sky, sunrise, and sunset HDR environments and show example cloud scenes.
+5. **Different voxel resolutions.** If supported, try different voxel grid resolutions (for example, 32³ versus 64³) to see how transfer resolution affects visual smoothness, memory use, and precompute time.
