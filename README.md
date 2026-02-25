@@ -1,8 +1,5 @@
 # Milestone 2: Volumetric Self-Transfer for Real-Time Relighting
 
-**Project:** Volumetric Precomputed Radiance Transfer (PRT)  
-**Date:** February 2026
-
 ---
 
 ## 1. Progress Since Milestone 1
