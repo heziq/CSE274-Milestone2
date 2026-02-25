@@ -34,12 +34,18 @@ Since then, the following enhancements have been completed.
 
 ## 2. Current Capabilities
 
-<p align="center">
-  <img src="image/capabilities.png" alt="Lighting and rendering control UI for current capabilities" width="640" />
-</p>
+<table>
+  <tr>
+    <td width="60%" valign="top">
 
 The system renders a real-time volumetric cloud with PRT self-shadowing under HDR environment maps. The user can switch at runtime between any SH lighting JSON file and between SH orders 9, 25, and 49, with matching transfer data loaded automatically. Directional light adds sharp volumetric shadows and is controlled independently. Noise-modulated density (and optional noisy transfer) gives cloud-like structure while keeping the same density model in precompute and runtime. The background environment EXR can be displayed and optionally auto-rotated to match the SH lighting rotation. Debug modes (PRT normal, Transfer DC, PRT raw) and auto-exposure (normalizing by the DC magnitude of the lighting) remain available.
 
+  </td>
+  <td width="40%" align="center">
+    <img src="image/capabilities.png" width="400">
+  </td>
+  </tr>
+</table>
 ---
 
 ## 3. Video Demo
